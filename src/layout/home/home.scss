@@ -1,0 +1,21 @@
+.Home{
+  margin-top: 180px;
+  position: relative;
+  right :0;
+  display: block !important;
+  -webkit-transition:all linear 0.5s;
+  transition:all linear 0.5s;
+}
+
+
+.Home.animate {
+  right: 200px;
+}
+
+
+@media screen and (max-width: 535px) {
+  .Home{
+    margin-top: 120px;
+  }
+
+}
