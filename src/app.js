@@ -1,6 +1,5 @@
 var app = angular.module("App", ['ngRoute']);
 
-
 app
     .config(['$routeProvider',
         function($routeProvider) {
@@ -21,6 +20,7 @@ app
                     redirectTo: '/login'
                 });
         }
-    ])
+    ]);
+
 
 
