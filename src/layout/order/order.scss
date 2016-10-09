@@ -32,4 +32,19 @@
     -webkit-transition: all 0.5s cubic-bezier(.5, -0.005, 0.2, 1) !important;
     color: #fff;
   }
+
+  #yourElement{
+
+    video{
+      width: 300px;
+    }
+    canvas{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 300px;
+    }
+
+  }
+
 }
