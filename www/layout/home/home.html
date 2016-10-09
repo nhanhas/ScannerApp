@@ -1,9 +1,23 @@
-<!-- Float header-->
-<header></header>
+<!-- Nav bar-->
+<navbar view-selected="viewSelected"></navbar>
 
 
 <!-- Home INI -->
 <div class="Home">
 
+    <!-- navbar 'home' -->
+    <div class="home-view" ng-show=" viewSelected === 'home'">
+        <div class="row"> home </div>
+    </div>
+
+    <!-- navbar 'add' -->
+    <div class="panel add-view" ng-class="{'move-add-panel' : viewSelected === 'add'}">
+        <div class="row"> add </div>
+    </div>
+
+    <!-- navbar 'settings' -->
+    <div class="panel settings-view" ng-class="{'move-settings-panel' : viewSelected === 'settings'}">
+        <div class="row"> settings </div>
+    </div>
 
 </div><!-- Home END -->

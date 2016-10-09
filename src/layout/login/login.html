@@ -7,7 +7,7 @@
 
             <div class="input-group">
                 <label class="input-group-addon"><i class="fa fa-user"></i></label>
-                <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1" ng-model="username">
             </div>
 
         </div>
@@ -17,7 +17,7 @@
 
             <div class="input-group">
                 <label class="input-group-addon"><i class="fa fa-lock"></i></label>
-                <input type="password" class="form-control" placeholder="Password" aria-describedby="basic-addon1">
+                <input type="password" class="form-control" placeholder="Password" aria-describedby="basic-addon1" ng-model="password">
             </div>
 
         </div>
@@ -25,7 +25,7 @@
         <!-- login now! -->
         <div class="col-xs-12 sign-in">
 
-            <button type="button" class="btn btn-default btn-lg">
+            <button type="button" class="btn btn-default btn-lg" ng-click="doLogin()">
                 SIGN IN
             </button>
 

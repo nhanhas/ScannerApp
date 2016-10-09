@@ -11,4 +11,5 @@
 body {
   background-color: #2c3338;
   color: #606468;
-  font: 400 0.875rem/1.5 'Open Sans', sans-serif; }
+  transition: all 1s cubic-bezier(.5, -0.005, 0.2, 1) !important;
+  -webkit-transition: all 1s cubic-bezier(.5, -0.005, 0.2, 1) !important; }

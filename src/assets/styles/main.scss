@@ -40,6 +40,10 @@ body{
 
   background-color: $base__bgcolor;
   color: $base__color;
-  font: $base__font-weight #{$base__font-size}/#{$base__line-height} $base__font-family, $base__font-family-fallback;
+  //font: $base__font-weight #{$base__font-size}/#{$base__line-height} $base__font-family, $base__font-family-fallback;
+
+
+  transition: all 1s cubic-bezier(.5, -0.005, 0.2, 1) !important;
+  -webkit-transition: all 1s cubic-bezier(.5, -0.005, 0.2, 1) !important;
 
 }

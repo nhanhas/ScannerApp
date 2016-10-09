@@ -1,17 +1,27 @@
 .navbar-custom{
-  position: fixed;
-  bottom: 0;
   left: 0;
-  right: 0;
-  background-color: grey;
-  height: 50px;
-  color: white;
+  position: absolute;
+  font-size: 40px;
+  height: 100%;
+  width: 100px;
 
-  box-shadow: 0 -7px 11px -5px #888888;
-  opacity: 0.9;
+  //options
+  .row{
+    margin: 200px auto;
 
-  > div {
-    cursor: pointer;
+    .home-option{
+      margin-bottom: 20px;
+    }
+
+    .add-option{
+      margin-bottom: 20px;
+    }
+
+    .settings-option{
+
+
+    }
+
   }
 
 }

@@ -4,14 +4,20 @@ app
         return {
             restrict: 'EA',
             scope: {
+                viewSelected:'='
             },
             templateUrl: 'shared/navbar/navbar.html',
 
             link: function (scope, element, attrs) {
 
+                scope.viewSelected = scope.viewSelected || 'home';
+
                 //return to Home
-                scope.navHome = function (){
-                    location.path('/home');
+                scope.selectView = function (view){
+
+                    scope.viewSelected = view;
+                    console.log(view);
+
                 };
 
             }
