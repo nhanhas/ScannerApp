@@ -5,15 +5,24 @@
   transition:all linear 0.5s;
 
   position: absolute;
-  width: 100%;
+  right: 0;
   height: 100%;
+
+  overflow: hidden;
 
   .row {
     margin:0;
+    >div{
+      padding:0;//cols without padding
+    }
   }
 
   .home-view{
     height: 100%;
+    margin-top: 205px;
+    .fa{
+      font-size: 80px;
+    }
   }
 
   .add-view{

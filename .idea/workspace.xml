@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef2c27f3-721c-4ffe-8f8b-e157dda451fc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layout/home/HomeController.js" afterPath="$PROJECT_DIR$/src/layout/home/HomeController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/layout/home/HomeController.js" afterPath="$PROJECT_DIR$/www/layout/home/HomeController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layout/login/LoginController.js" afterPath="$PROJECT_DIR$/src/layout/login/LoginController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/layout/login/LoginController.js" afterPath="$PROJECT_DIR$/www/layout/login/LoginController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/layout/home/home.css" afterPath="$PROJECT_DIR$/www/layout/home/home.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layout/home/home.html" afterPath="$PROJECT_DIR$/src/layout/home/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/layout/home/home.html" afterPath="$PROJECT_DIR$/www/layout/home/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layout/home/home.scss" afterPath="$PROJECT_DIR$/src/layout/home/home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layout/login/login.html" afterPath="$PROJECT_DIR$/src/layout/login/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/layout/login/login.html" afterPath="$PROJECT_DIR$/www/layout/login/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/assets/styles/main.css" afterPath="$PROJECT_DIR$/www/assets/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/styles/main.scss" afterPath="$PROJECT_DIR$/src/assets/styles/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/shared/navbar/navbar.css" afterPath="$PROJECT_DIR$/www/shared/navbar/navbar.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shared/navbar/navbar.html" afterPath="$PROJECT_DIR$/src/shared/navbar/navbar.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/shared/navbar/navbar.html" afterPath="$PROJECT_DIR$/www/shared/navbar/navbar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shared/navbar/navbar.js" afterPath="$PROJECT_DIR$/src/shared/navbar/navbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/shared/navbar/navbar.js" afterPath="$PROJECT_DIR$/www/shared/navbar/navbar.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/shared/navbar/navbar.scss" afterPath="$PROJECT_DIR$/src/shared/navbar/navbar.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -44,8 +34,8 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/layout/home/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0">
-              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+            <state vertical-scroll-proportion="-5.625">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -61,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/layout/home/home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32315978">
-              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            <state vertical-scroll-proportion="-10.0">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -81,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="navbar.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/shared/navbar/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875">
-              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.2962298">
+              <caret line="11" column="211" selection-start-line="11" selection-start-column="211" selection-end-line="11" selection-end-column="211" />
               <folding />
             </state>
           </provider>
@@ -95,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/src/shared/navbar/navbar.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -104,8 +94,8 @@
       <file leaf-file-name="navbar.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/shared/navbar/navbar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state vertical-scroll-proportion="-17.5">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -155,11 +145,11 @@
         <option value="$PROJECT_DIR$/src/layout/login/LoginController.js" />
         <option value="$PROJECT_DIR$/src/layout/home/HomeController.js" />
         <option value="$PROJECT_DIR$/src/shared/navbar/navbar.js" />
-        <option value="$PROJECT_DIR$/src/shared/navbar/navbar.html" />
-        <option value="$PROJECT_DIR$/src/shared/navbar/navbar.scss" />
         <option value="$PROJECT_DIR$/src/assets/styles/main.scss" />
         <option value="$PROJECT_DIR$/src/layout/home/home.html" />
         <option value="$PROJECT_DIR$/src/layout/home/home.scss" />
+        <option value="$PROJECT_DIR$/src/shared/navbar/navbar.scss" />
+        <option value="$PROJECT_DIR$/src/shared/navbar/navbar.html" />
       </list>
     </option>
   </component>
@@ -815,30 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/shared/navbar/navbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shared/navbar/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shared/navbar/navbar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.708334">
@@ -855,14 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/layout/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/layout/home/HomeController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -871,10 +829,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.625">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/navbar/navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/layout/home/home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32315978">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/navbar/navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.5">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shared/navbar/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2962298">
+          <caret line="11" column="211" selection-start-line="11" selection-start-column="211" selection-end-line="11" selection-end-column="211" />
           <folding />
         </state>
       </provider>

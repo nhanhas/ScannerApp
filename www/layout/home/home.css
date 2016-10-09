@@ -4,12 +4,18 @@
   -webkit-transition: all linear 0.5s;
   transition: all linear 0.5s;
   position: absolute;
-  width: 100%;
-  height: 100%; }
+  right: 0;
+  height: 100%;
+  overflow: hidden; }
   .Home .row {
     margin: 0; }
+    .Home .row > div {
+      padding: 0; }
   .Home .home-view {
-    height: 100%; }
+    height: 100%;
+    margin-top: 205px; }
+    .Home .home-view .fa {
+      font-size: 80px; }
   .Home .add-view {
     background-color: #16a085;
     height: 100%;
