@@ -13,8 +13,8 @@
             <div class="col-xs-12"><label>Home</label></div>
             <div class="col-xs-12">
                 <p>Select one of the option to:</p>
-                <p> 1. Start your order</p>
-                <p> 2. Configure your Drive FX connection</p>
+                <p> <i class="fa fa-plus"></i> - Start your order</p>
+                <p> <i class="fa fa-cogs"></i> - Configure your Drive FX connection</p>
             </div>
 
         </div>
@@ -22,12 +22,39 @@
 
     <!-- navbar 'add' -->
     <div class="panel add-view" ng-class="{'move-add-panel' : viewSelected === 'add'}">
-        <div class="row"> add </div>
+        <div class="row text-center">
+
+            <div class="col-xs-12"><i class="fa fa-plus"></i></div>
+            <div class="col-xs-12"><label>Start an order</label></div>
+            <div class="col-xs-12">
+                <p>Once you have Drive FX connection configured:</p>
+                <p>
+                    <button type="button" class="btn btn-default btn-lg" ng-click="startOrder()">
+                        Start here
+                    </button>
+                </p>
+
+            </div>
+        </div>
+
     </div>
 
     <!-- navbar 'settings' -->
     <div class="panel settings-view" ng-class="{'move-settings-panel' : viewSelected === 'settings'}">
-        <div class="row"> settings </div>
+        <div class="row text-center">
+
+            <div class="col-xs-12"><i class="fa fa-cogs"></i></div>
+            <div class="col-xs-12"><label>Settings</label></div>
+            <div class="col-xs-12">
+                <p>Configure here your Drive FX connection:</p>
+                <p>
+                    <button type="button" class="btn btn-default btn-lg" ng-click="setupDrive()">
+                        Set up here
+                    </button>
+                </p>
+
+            </div>
+        </div>
     </div>
 
 </div><!-- Home END -->

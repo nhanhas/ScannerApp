@@ -14,14 +14,17 @@
   .Home .home-view {
     height: 100%;
     margin-top: 205px; }
-    .Home .home-view .fa {
+    .Home .home-view .fa-home {
       font-size: 80px; }
   .Home .add-view {
     background-color: #16a085;
     height: 100%;
     position: absolute;
     width: 100%;
-    left: 100%; }
+    left: 100%;
+    padding-top: 205px; }
+    .Home .add-view .fa {
+      font-size: 80px; }
     .Home .add-view.move-add-panel {
       left: 0; }
   .Home .settings-view {
@@ -29,7 +32,10 @@
     height: 100%;
     position: absolute;
     width: 100%;
-    left: 100%; }
+    left: 100%;
+    padding-top: 205px; }
+    .Home .settings-view .fa {
+      font-size: 80px; }
     .Home .settings-view.move-settings-panel {
       left: 0; }
   .Home .panel {

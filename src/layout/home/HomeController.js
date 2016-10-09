@@ -4,6 +4,13 @@ app
         //var for navbar selection
         $scope.viewSelected = 'home';
 
+        $scope.startOrder = function(){
+
+        };
+
+        $scope.setupDrive = function(){
+
+        };
 
     }]);
 

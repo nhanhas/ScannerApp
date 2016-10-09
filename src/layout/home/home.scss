@@ -20,7 +20,7 @@
   .home-view{
     height: 100%;
     margin-top: 205px;
-    .fa{
+    .fa-home{
       font-size: 80px;
     }
   }
@@ -31,6 +31,13 @@
     position: absolute;
     width: 100%;
     left: 100%;
+
+    padding-top: 205px;
+
+    .fa{
+      font-size: 80px;
+    }
+
     &.move-add-panel{
       left:0;
     }
@@ -43,6 +50,13 @@
     position: absolute;
     width: 100%;
     left: 100%;
+
+    padding-top: 205px;
+
+    .fa{
+      font-size: 80px;
+    }
+
     &.move-settings-panel{
       left:0;
     }
