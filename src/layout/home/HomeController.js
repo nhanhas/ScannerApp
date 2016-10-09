@@ -5,7 +5,7 @@ app
         $scope.viewSelected = 'home';
 
         $scope.startOrder = function(){
-
+            $location.path('/order')
         };
 
         $scope.setupDrive = function(){

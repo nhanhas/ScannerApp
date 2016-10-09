@@ -16,7 +16,6 @@ app
                 scope.selectView = function (view){
 
                     scope.viewSelected = view;
-                    console.log(view);
 
                 };
 

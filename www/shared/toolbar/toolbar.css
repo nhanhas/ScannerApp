@@ -1,0 +1,17 @@
+.toolbar-custom {
+  left: 0;
+  position: fixed;
+  color: #606468;
+  font-size: 40px;
+  height: 100%;
+  width: 100px; }
+  .toolbar-custom .row {
+    margin: 200px auto; }
+    .toolbar-custom .row .home-option {
+      margin-bottom: 20px; }
+    .toolbar-custom .row .add-product-option {
+      margin-bottom: 20px; }
+    .toolbar-custom .row .description {
+      margin-top: -13px;
+      font-size: 10px;
+      margin-bottom: 0; }

@@ -1,0 +1,35 @@
+.Order {
+  left: 0;
+  margin-left: 100px;
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+
+  position: absolute;
+  right: 0;
+  height: 100%;
+
+  overflow: hidden;
+
+  .row {
+    margin: 0;
+    > div {
+      padding: 0; //cols without padding
+    }
+  }
+
+  .order-view {
+    background-color: #16a085;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    padding-top: 205px;
+
+
+  }
+
+  .panel{
+    transition: all 0.5s cubic-bezier(.5, -0.005, 0.2, 1) !important;
+    -webkit-transition: all 0.5s cubic-bezier(.5, -0.005, 0.2, 1) !important;
+    color: #fff;
+  }
+}
