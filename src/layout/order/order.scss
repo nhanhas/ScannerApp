@@ -47,4 +47,33 @@
 
   }
 
+
+  .bar-code{
+    margin-top: 100px;//will be removed after insert grid
+
+    //bar image
+    #input-addon{
+      visibility: hidden;
+    }
+    #interactive{
+      position: relative;
+      overflow: auto;
+      height: 250px;
+
+      .imgBuffer{
+        width: 100%;
+      }
+      .drawingBuffer{
+        width: 100%;
+        position: absolute;
+        top:0;
+        left: 0;
+      }
+
+    }
+
+  }
+
+
+
 }

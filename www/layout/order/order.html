@@ -14,10 +14,21 @@
 
             </div>
 
-            <!-- table of products -->
+            <!-- table of products
             <div class="col-xs-12 bar-code">
 
                 <div id="yourElement" style="width: 250px; height: 250px;"></div>
+
+            </div>
+            -->
+
+            <!-- table of products -->
+            <div class="col-xs-8 col-xs-offset-2 bar-code">
+                aqui input
+                <input id="input-addon" type="file" accept="image/*" capture="camera"
+                       onchange="angular.element(this).scope().imageUploaded(this)"/>
+
+                <div id="interactive" class="viewport"></div>
 
             </div>
 

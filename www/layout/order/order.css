@@ -28,3 +28,18 @@
     top: 0;
     left: 0;
     width: 300px; }
+  .Order .bar-code {
+    margin-top: 100px; }
+    .Order .bar-code #input-addon {
+      visibility: hidden; }
+    .Order .bar-code #interactive {
+      position: relative;
+      overflow: auto;
+      height: 250px; }
+      .Order .bar-code #interactive .imgBuffer {
+        width: 100%; }
+      .Order .bar-code #interactive .drawingBuffer {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0; }
